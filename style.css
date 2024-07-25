@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.bac{
+    background-color: rgb(20, 19, 20);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+.logo img {
+    width: 80px;
+}
+.list ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 20px;
+    margin-right: 500px;
+}
+.list ul li a:hover{
+    color: red;
+}
+
+.list a {
+    color: white;
+    font-size: 15px;
+}
+.line {
+    margin-left: 40px;
+}
+ h1 {
+    color: white;
+    margin-top: 40px;
+    margin-left: 30px;
+
+}
+.series{
+ padding: 50px;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+   
+}
+.films {
+    margin-top: 20px;
+  
+    width: 200px;
+    height: 600px;
+}
+.top{
+    background-image: url(./téléchargement1.jfif);
+    border-radius: 10px;
+    height: 50%;
+    background-position: center;
+background-size : cover;
+}
+.botom {
+    margin-top: 20px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+.botom h4 {
+    font-size: 15px;
+    opacity: 20%;
+}
+.botom a {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px black;
+    
+}
+.rate {
+    display: flex;
+   
+    
+}
+.rate img {
+    width: 20px;
+    
+}
+.rate h5 {
+    margin-left: 10px;
+}
+.type {
+    display: flex;
+}
+.type h4{
+    margin-left: 40px;
+    font-size: 12px;
+    margin-top: 8px;
+}
+.films1 {
+    margin-top: 20px;
+  
+    width: 200px;
+    height: 600px;
+}
+.top1{
+    background-image: url(./téléchargement\ \(5\).jfif);
+    border-radius: 10px;
+    height: 50%;
+    background-position: center;
+background-size : cover;
+}
+.botom1 {
+    margin-top: 20px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+.botom1 h4 {
+    font-size: 15px;
+    opacity: 20%;
+}
+.botom1 a {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px black;
+    
+}
+.rate {
+    display: flex;
+   
+    
+}
+.rate img {
+    width: 20px;
+    
+}
+.rate h5 {
+    margin-left: 10px;
+}
+.type {
+    display: flex;
+}
+.type h4{
+    margin-left: 40px;
+    font-size: 12px;
+    margin-top: 8px;
+}
+.films2 {
+    margin-top: 20px;
+  
+    width: 200px;
+    height: 600px;
+}
+.top2{
+    background-image: url(./téléchargement\ \(6\).jfif);
+    border-radius: 10px;
+    height: 50%;
+    background-position: center;
+background-size : cover;
+}
+.botom2 {
+    margin-top: 20px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+.botom2 h4 {
+    font-size: 15px;
+    opacity: 20%;
+}
+.botom2 a {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px black;
+    
+}
+.rate {
+    display: flex;
+   
+    
+}
+.rate img {
+    width: 20px;
+    
+}
+.rate h5 {
+    margin-left: 10px;
+}
+.type {
+    display: flex;
+}
+.type h4{
+    margin-left: 40px;
+    font-size: 12px;
+    margin-top: 8px;
+}
+.films3 {
+    margin-top: 20px;
+  
+    width: 200px;
+    height: 600px;
+}
+.top3{
+    background-image: url(./téléchargement\ \(7\).jfif);
+    border-radius: 10px;
+    height: 50%;
+    background-position: center;
+background-size : cover;
+}
+.botom3 {
+    margin-top: 20px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+.botom3 h4 {
+    font-size: 15px;
+    opacity: 20%;
+}
+.botom3 a {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px black;
+    
+}
+.rate {
+    display: flex;
+   
+    
+}
+.rate img {
+    width: 20px;
+    
+}
+.rate h5 {
+    margin-left: 10px;
+}
+.type {
+    display: flex;
+}
+.type h4{
+    margin-left: 40px;
+    font-size: 12px;
+    margin-top: 8px;
+}
+.films4 {
+    margin-top: 20px;
+  
+    width: 200px;
+    height: 600px;
+}
+
+.top4{
+    background-image: url(./téléchargement\ \(8\).jfif);
+    border-radius: 10px;
+    height: 50%;
+    background-position: center;
+background-size : cover;
+}
+.botom4 {
+    margin-top: 20px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+.botom4 h4 {
+    font-size: 15px;
+    opacity: 20%;
+}
+.botom4 a {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px black;
+    
+}
+.rate {
+    display: flex;
+   
+    
+}
+.rate img {
+    width: 20px;
+    
+}
+.rate h5 {
+    margin-left: 10px;
+}
+.type {
+    display: flex;
+}
+.type h4{
+    margin-left: 40px;
+    font-size: 12px;
+    margin-top: 8px;
+}
+.back img {
+    width: 800px;
+}
